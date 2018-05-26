@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Editor</title>
+    <!-- <link rel="stylesheet" href="./../css/external/material.css"> -->
+    <link rel="stylesheet" href="./../css/external/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1"
+        crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+        crossorigin="anonymous"></script>
+    <!-- <script src="./../js/external/material.min.js"></script> -->
+    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+    <script src="./../js/external/quill.min.js"></script>
+    <link rel="stylesheet" href="./../css//external/quill.snow.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="./../css/external/uikit.css">
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Roboto|Sofia|Inconsolata|Pacifico">
+</head>
+
+<body>
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
+        mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-layout__header--scroll" style="margin-left: 160px;width: calc(100% - 130px);">
+            <div class="mdl-layout__header-row" id="editor_head">
+                <!-- Title -->
+                <span class="mdl-layout-title" id="projectTitle"></span>
+
+                <div id="stats" style="display:none;">
+                    <span class="wh" id="wordCount">Words:
+                        <b>0</b>
+                    </span>
+                    <span class="wh" id="symbolCount">Symbols:
+                        <b>0</b>
+                    </span>
+                </div>
+
+                <div id="recover" style="margin-left: 15px; display:none;">
+                    <button id="recoverBtn" class="mdl-button mdl-js-button wh b">
+                        Recover
+                    </button>
+                    <button class="mdl-button mdl-js-button mdl-button--accent b" id="deleteForever"style="color: rgba(255, 255, 255, 1);background: #34495e;">
+                        Delete forever
+                    </button>
+                </div>
+
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation -->
+
+                <!-- <span class="mdl-layout-title"></span> -->
+                <form action="#" id="listNameInput" style="display:none;">
+                    <div class="mdl-textfield mdl-js-textfield">
+                        <input class="mdl-textfield__input wh" type="text" id="listName">
+                    </div>
+                </form>
+                <button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon" style="display: none;">
+                    <i class="material-icons">more_vert</i>
+                </button>
+
+                <ul id="actionList" class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right">
+                </ul>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer" style="width: 160px;">
+            <br>
+            <br>
+            <div id="left-sidebar">
+
+            </div>
+        </div>
+        <main class="mdl-layout__content" style="margin-left: 150px; margin-top: 10px;">
+            <div class="page-content" style="width: calc(100% - 30px); margin-left: 20px;">
+                <div aria-live="assertive" aria-atomic="true" aria-relevant="text" style="border-radius: 5px;" class="mdl-snackbar mdl-js-snackbar">
+                    <div class="mdl-snackbar__text" style="float: none; margin: 0px auto;" ;></div>
+                    <button type="button" class="mdl-snackbar__action"></button>
+                </div>
+                <div id="content">
+                    <div style="width: 90%; margin: 0px auto; text-align: center; margin-top: 25%;">
+                        <span class="fz-20">Looks like there is nothing here yet. Get started by creating / opening blank file on the left sidebar!</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div id="hiddenCont">
+
+    </div>
+    <script>
+        window.$ = window.jQuery = require('jquery');
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+
+    <script>
+        require('./../js/editorPage.js');
+        require('./../js/external/quill.min.js');
+        require('./../js/external/jquery.js');
+    </script>
+
+</body>
+
+</html>

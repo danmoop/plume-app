@@ -1,0 +1,120 @@
+{
+	"actors": [
+		{
+			"content": "<p>Helen is my name</p>",
+			"id": "actor_kC1dzDXs7mspLkMrG4Bn",
+			"name": "Helen"
+		},
+		{
+			"content": "<p>Adam is my name</p>",
+			"id": "actor_ILS4ujwRG2X8CoZxX89F",
+			"name": "Adam"
+		},
+		{
+			"content": "<p>Ann is my name</p>",
+			"id": "actor_nunIqSVIAck03thhxaX2",
+			"name": "Ann"
+		},
+		{
+			"content": "<p>Johnny is my name</p>",
+			"id": "actor_nTUiVpkz6aghPdbv9Jc6",
+			"name": "Johnny"
+		}
+	],
+	"filename": "Perfection Of Distraction",
+	"lists": [
+		{
+			"content": "<h1><span class=\"ql-size-huge\">Prologue</span></h1>",
+			"id": "list_eQsaoNDQw7ACXEuqH75r",
+			"title": "Prologue"
+		},
+		{
+			"content": "<h1><span class=\"ql-size-huge\">Chapter I Content﻿</span></h1>",
+			"id": "list_NDSE68a9U5QNquR3mWji",
+			"title": "Chapter I"
+		},
+		{
+			"content": "<p>Chapter II Content</p>",
+			"id": "list_ZfnkcJROAi69mve6dr9c",
+			"title": "Chapter II"
+		},
+		{
+			"content": "<p>Chapter III Content</p>",
+			"id": "list_FGkPcl50cJt5yOcHLtBD",
+			"title": "Chapter III"
+		},
+		{
+			"content": "<h1 class=\"ql-align-center\"><strong class=\"ql-size-large\">Chapter IV﻿</strong></h1><p><span class=\"ql-size-large\">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</span></p><p><br></p><p><span class=\"ql-size-large\">You begin with a text, you sculpt information, you chisel away what's not needed, you come to the point, make things clear, add value, you're a content person, you like words. Design is no afterthought, far from it, but it comes in a deserved second. Anyway, you still use Lorem Ipsum and rightly so, as it will always have a place in the web workers toolbox, as things happen, not always the way you like it, not always in the preferred order. Even if your less into design and more into content strategy you may find some redeeming value with, wait for it, dummy copy, no less.</span></p><p><br></p><p><span class=\"ql-size-large\">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.</span></p>",
+			"id": "list_iOJVyVQbxWklX0xsJUot",
+			"title": "Chapter IV"
+		},
+		{
+			"content": "<p><br></p>",
+			"id": "list_VR2ayJXYHMTg6WxBQeXK",
+			"title": "Chapter V"
+		},
+		{
+			"content": "<p><br></p>",
+			"id": "list_brkNnxNp6ZWlDqXTmYEG",
+			"title": "Chapter VI"
+		},
+		{
+			"content": "<p><br></p>",
+			"id": "list_Axluj92JlNIUrQiPtENE",
+			"title": "Chapter VIII"
+		},
+		{
+			"content": "<p><br></p>",
+			"id": "list_6NaCdKZ4PXOlfyt1W0oo",
+			"title": "Chapter VII"
+		},
+		{
+			"content": "<p><br></p>",
+			"id": "list_FxLAZd5tQNaiYOOw7OtF",
+			"title": "Chapter IX"
+		},
+		{
+			"content": "<p>Chapter X Content</p>",
+			"id": "list_vIklQ4wymLSw8RjW5IDW",
+			"title": "Chapter X"
+		},
+		{
+			"content": "<h1><span class=\"ql-size-huge\">Epilogue﻿</span></h1>",
+			"id": "list_Yn6YW5VFzkPtvPwKcT71",
+			"title": "Epilogue"
+		}
+	],
+	"notes": [],
+	"pathFile": "C:\\Users\\MineDan\\Desktop\\Perfection Of Distraction.plume",
+	"places": [
+		{
+			"content": "<p><br></p>",
+			"id": "place_i5RfPJoyaYB4hIgqo67f",
+			"name": "City"
+		},
+		{
+			"content": "<p><span class=\"ql-size-huge\">This is forest description</span></p>",
+			"id": "place_zFCWMGMALcfQ8Fhuo2xd",
+			"name": "Forest"
+		},
+		{
+			"content": "<p><br></p>",
+			"id": "place_wgEMubACiSjbEkzebWvB",
+			"name": "Country"
+		}
+	],
+	"shortStory": "",
+	"trash": [
+		{
+			"content": "<p><br></p>",
+			"id": "place_ffzIlMrsMbuVTkTIP5XA",
+			"name": "Office"
+		},
+		{
+			"content": "<p><br></p>",
+			"id": "place_vtjmVZKPQOkfU7WW3PmH",
+			"name": "Downtown"
+		}
+	],
+	"type": "book"
+}

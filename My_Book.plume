@@ -1,0 +1,39 @@
+{
+	"actors": [
+		{
+			"content": "<p><br></p>",
+			"id": "actor_lcSJ1tjGE2J7VZIooJbW",
+			"name": "Somebody"
+		}
+	],
+	"filename": "My_Book",
+	"lists": [
+		{
+			"content": "<h1 class=\"ql-align-center\"><span class=\"ql-size-huge ql-font-Pacifico\">Act I</span></h1><h3 class=\"ql-align-center\"><span class=\"ql-size-large\" style=\"color: rgb(0, 0, 0);\">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else </span></h3><h3><span class=\"ql-size-large\" style=\"color: rgb(0, 0, 0);\">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</span></h3><h1 class=\"ql-align-center\"><br></h1>",
+			"id": "list_Hq8KXvKP4jekBkuDOBPy",
+			"title": "Act I"
+		},
+		{
+			"content": "<h1 class=\"ql-align-center\"><span class=\"ql-font-Pacifico ql-size-huge\">Act II</span></h1><h3 class=\"ql-align-center\"><span class=\"ql-font-lato ql-size-large\" style=\"color: rgb(0, 0, 0);\">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</span></h3>",
+			"id": "list_G5qru6wHCUPxxHUezVF9",
+			"title": "Act II"
+		},
+		{
+			"content": "<h1 class=\"ql-align-center\"><strong class=\"ql-size-huge\">Final</strong></h1><h3 class=\"ql-align-justify\"><span class=\"ql-size-large\">Nunc sodales elit est, ac tincidunt ante viverra in. Aliquam mollis blandit malesuada. Fusce egestas tincidunt nisl, eu elementum dui ultrices ut. Mauris condimentum feugiat maximus. Vestibulum rutrum massa a metus tempor malesuada. Duis id mi blandit, molestie erat vel, pharetra lorem. Mauris ut orci a ligula egestas dictum et vitae enim. Donec a finibus purus, a iaculis dui. Aenean nisi neque, congue vitae commodo eu, condimentum eu tortor. Fusce tincidunt auctor felis, id tristique justo facilisis vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</span></h3><h3 class=\"ql-align-justify\"><span class=\"ql-size-large\">Aenean vitae iaculis ipsum. Praesent egestas blandit tincidunt. Etiam dui eros, fringilla quis nisl porttitor, venenatis vulputate ligula. Vestibulum rhoncus venenatis nunc in consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec convallis nunc turpis, sed luctus arcu euismod vitae. Aenean porttitor, felis in facilisis facilisis, nisl nisi posuere velit, nec lacinia turpis mi vitae nisi. Aenean rutrum ante eget mauris malesuada, vitae aliquam dolor iaculis. Curabitur hendrerit quam vitae nisl lacinia sollicitudin. Pellentesque fringilla cursus quam, nec aliquet augue accumsan quis. Maecenas suscipit scelerisque mauris, vestibulum vehicula enim iaculis ut. Sed eget luctus elit. Integer tristique lobortis volutpat. Donec suscipit viverra tortor, nec porta orci varius ut. Ut commodo non est at pretium.</span></h3><h3 class=\"ql-align-justify\"><span class=\"ql-size-large\">Nunc id maximus mauris. Aliquam in justo in justo sodales sagittis. Praesent nec ex placerat, congue neque et, facilisis felis. Suspendisse ut aliquam nunc. Mauris aliquet vehicula vulputate. Nullam nisi nibh, facilisis sed ultricies in, pellentesque quis nunc. Morbi sed dolor accumsan, dapibus velit eget, suscipit arcu. Mauris lectus nisl, dictum in sem nec, luctus blandit augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed libero mauris, scelerisque molestie mi a, hendrerit tempus arcu. Aenean facilisis sed purus at imperdiet. Suspendisse nec augue a neque sodales porttitor. Donec ultrices malesuada lacus, et sodales lorem blandit et. Etiam vitae ante lacinia, luctus nunc nec, gravida urna. In porttitor ultricies vestibulum.</span></h3><p class=\"ql-align-center\"><br></p>",
+			"id": "list_rLFCiNJDFmFxbA4lNl2F",
+			"title": "Final"
+		}
+	],
+	"notes": [],
+	"pathFile": "C:\\Users\\MineDan\\Desktop\\My_Book.plume",
+	"places": [
+		{
+			"content": "<p><br></p>",
+			"id": "place_xaUtApsHinViupUNRZZq",
+			"name": "Somewhere"
+		}
+	],
+	"shortStory": "",
+	"trash": [],
+	"type": "book"
+}

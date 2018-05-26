@@ -1,0 +1,316 @@
+html{
+    user-select: none;
+    overflow-x: hidden;
+}
+
+img{
+    pointer-events: none;
+    -webkit-app-region: drag;
+}
+
+.grad{
+    background: linear-gradient(45deg, #18191c, #34495e);
+    height: 1px;
+}
+
+.red-bg{
+    background: red;
+}
+
+.green-bg{
+    background: green;
+}
+
+.blue-bg{
+    background: blue;
+}
+
+.width-100{
+    width: 100%;
+}
+
+.width-90{
+    width: 90%;
+}
+
+.width-80{
+    width: 80%;
+}
+
+.width-70{
+    width: 70%;
+}
+
+.width-50{
+    width: 50%;
+}
+
+.pad-5{
+    padding: 5px;
+}
+
+.pad-10{
+    padding: 10px;
+}
+
+.margin-50{
+    margin: 50px;
+}
+
+.margin-25{
+    margin: 25px;
+}
+
+.margin-10{
+    margin: 10px;
+}
+
+.margin-10{
+    margin: 10px;
+}
+
+.margin-5{
+    margin: 5px;
+}
+
+.b{
+    font-weight: bold;
+}
+
+.u{
+    text-decoration: underline;
+}
+
+.wh{
+    color: white;
+}
+
+.border-2{
+    border-radius: 2px;
+}
+
+.border-5{
+    border-radius: 5px;
+}
+
+.border-10{
+    border-radius: 10px;
+}
+
+.border-15{
+    border-radius: 15px;
+}
+
+.border-25{
+    border-radius: 25px;
+}
+
+.border-35{
+    border-radius: 35px;
+}
+
+.border-max{
+    border-radius: 1000px;
+}
+
+.fz-15{
+    font-size: 15px;
+}
+
+.fz-20{
+    font-size: 20px;
+}
+
+.fz-25{
+    font-size: 25px;
+}
+
+.nohover:hover, .nohover:active{
+    color: #fff;
+}
+
+.center{
+    margin: 0px auto;
+}
+
+.bl{
+    color: #333;
+}
+
+.menuBtn:hover{
+    color: #333;
+    border: 1px solid #a5a5a5;;
+}
+
+.l-item{
+    list-style: none;
+}
+
+.comp{
+    border: 3px solid #eaeaea;
+}
+
+.comp:hover{
+    border: 3px solid #888;
+}
+
+.comp2{
+    width: 50%;
+    margin: 0px auto;
+}
+
+.wh:hover{
+    color: #fff;
+}
+
+.wh:active{
+    color: #fff;
+}
+
+.md-blue{
+    color: #34495e;
+}
+
+.divider{
+    background: #fff;
+}
+
+li{
+    list-style: none;
+}
+
+#listName{
+    border-bottom: 1px solid #ecf0f1;
+}
+
+a{
+    transition: 0.3s;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    transition: 0.3s;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.deletedA{
+    transition: 0.3s;
+    color: black;
+    text-decoration: none;
+}
+
+.deletedA:hover{
+    transition: 0.3s;
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+.ActorA{
+    transition: 0.3s;
+    color: black;
+    text-decoration: none;
+}
+
+.ActorA:hover{
+    transition: 0.3s;
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.PlaceA{
+    transition: 0.3s;
+    color: black;
+    text-decoration: none;
+}
+
+.PlaceA:hover{
+    transition: 0.2s;
+    color: #9b59b6;
+    text-decoration: none;
+}
+
+#stats{
+    margin-left: 25px;
+}
+
+#deleteForever{
+    border: 1px solid #fff;
+}
+
+#content{
+    background: #fff;
+}
+
+/* QUILL FONTS */
+
+.ql-font-lato{
+    font-family: 'Lato';
+}
+
+.ql-font-sofia{
+    font-family: 'Sofia';
+}
+
+.ql-font-roboto{
+    font-family: 'Roboto';
+}
+
+.ql-font-serif{
+    font-family: 'serif';
+}
+
+.ql-font-sans-serif{
+    font-family: sans-serif;
+}
+
+.ql-font-inconsolata{
+    font-family: 'Inconsolata';
+}
+
+.ql-font-Pacifico{
+    font-family: 'Pacifico';
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value=Pacifico]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=Pacifico]::before {
+    content: 'Pacifico';
+    font-family: 'Pacifico', sans-serif;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value=sofia]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=sofia]::before {
+    content: 'Sofia';
+    font-family: 'Sofia', sans-serif;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value=roboto]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=roboto]::before {
+    content: 'Roboto';
+    font-family: 'Roboto', sans-serif;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value=serif]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=serif]::before {
+    content: 'Serif';
+    font-family: 'serif';
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value=lato]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=lato]::before {
+    content: 'Lato';
+    font-family: 'lato', sans-serif;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value=sans-serif]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=sans-serif]::before {
+    content: 'Sans-serif';
+    font-family: sans-serif;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value=Inconsolata]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=Inconsolata]::before {
+    content: 'Inconsolata';
+    font-family: 'Inconsolata';
+}

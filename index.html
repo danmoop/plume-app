@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html style="overflow-y: hidden;">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Plume</title>
+    <link rel="stylesheet" href="css/external/material.css">
+    <link rel="stylesheet" href="css/external/uikit.css">
+    <link rel="stylesheet" href="css/external/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1"
+        crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+        crossorigin="anonymous"></script>
+    <script src="js/external/material.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="row" style="height: 2500px;">
+        <div class="col-sm-3 text-center green-bg" style="background: #363c4a;">
+            <div style="margin-top: 40%;">
+                <br>
+                <h4 class="wh" style="font-family: Kalam;">Create</h4>
+                <hr class="divider" style="margin: 0px auto; width: 80%;">
+                <br>
+                <button class="uk-button uk-button-default wh menuBtn width-70 margin-10 border-max" id="create_blank">
+                    <i class="far fa-file"></i> Blank</button>
+                <button class="uk-button uk-button-default wh menuBtn width-70 margin-10 border-max" id="create_script">
+                    <i class="far fa-file-alt"></i> Script</button>
+                <button class="uk-button uk-button-default wh menuBtn width-70 margin-10 border-max" id="create_book">
+                    <i class="fas fa-book"></i> Book</button>
+
+                <br>
+                <br>
+                <br>
+
+                <h4 class="wh" style="font-family: Kalam;">Open</h4>
+                <hr class="divider" style="margin: 0px auto; width: 80%;">
+                <br>
+                <button class="uk-button uk-button-default wh menuBtn width-80 margin-10 border-max" id="open_plume">Open PLUME project</button>
+
+            </div>
+        </div>
+
+        <div class="col-sm-9" style="background: #1abc9c;">
+            <br>
+            <h4 class="wh text-center">Welcome to
+                <span style="font-family: Kalam;">PLUME</span>
+                <img src="./img/quill.png" width="25">
+            </h4>
+            <hr class="divider" style="margin: 0px auto; width: 80%;">
+            <br>
+
+            <div class="row" style="margin-top: 15%;">
+                <div class="col-sm-6">
+                    <div class="demo-card-square mdl-card mdl-shadow--2dp" style="height: 270px; width: 90%;">
+                        <div class="mdl-card__title mdl-card--expand" style="background: url(./img/get_started.png) center / cover;">
+                        </div>
+                        <div class="mdl-card__supporting-text bl" style="font-family: Kalam;">
+                            Dive in PLUME by watching this crash course!
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <button class="mdl-button mdl-js-button mdl-button--primary b" id="watchCourse">
+                                Watch
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h2 class="u wh b" style="font-family: Kalam;"><a href="#/" style="color: white;" id="open_group">Discuss</a></h2>
+                    <p class="wh fz-20" style="font-family: Kalam;">Join our Telegram group to ask and answer questions. Discuss something or just be in touch!</p>
+
+                    <h2 class="u wh b" style="font-family: Kalam;"><a href="#/" style="color: white;" id="open_channel">Blog</a></h2>
+                    <p class="wh fz-20" style="font-family: Kalam;">Visit official PLUME Telegram channel to get all the latest news about the application.</p>
+
+                    <h2 class="u wh b" style="font-family: Kalam;"><a href="#/" style="color: white;" id="open_tutors">Tutorials</a></h2>
+                    <p class="wh fz-20" style="font-family: Kalam;">Learn how to use PLUME by watching tutorials on Youtube.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        require('./js/welcomePage.js');
+    </script>
+
+</body>
+
+</html>

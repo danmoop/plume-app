@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reorder</title>
+    <link rel="stylesheet" href="./../css/external/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1"
+        crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+        crossorigin="anonymous"></script>
+    <!-- <script src="./../js/external/material.min.js"></script> -->
+    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+    <script src="./../js/external/quill.min.js"></script>
+    <link rel="stylesheet" href="./../css//external/quill.snow.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"> -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="./../css/external/uikit.css">
+    <link rel="stylesheet" href="./../css/style.css">
+</head>
+
+<body>
+
+    <style>
+        li {
+            transition: 0.3s;
+            color: black;
+            text-decoration: none;
+        }
+
+        li:hover {
+            transition: 0.3s;
+            color: #3498db;
+            text-decoration: none;
+        }
+    </style>
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header text-center">
+
+
+        <div class="mdl-layout__drawer text-center" style="width: 99%;">
+            <div id="left-sidebar">
+
+            </div>
+            <hr>
+            <button class="uk-button uk-button-default bl" id="applyChanges">Apply</button>
+        </div>
+    </div>
+
+    <script>
+        require('./../js/organizeLists.js');
+    </script>
+</body>
+
+</html>
