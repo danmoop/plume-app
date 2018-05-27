@@ -1,3 +1,11 @@
+/*
+
+This file is useless because I disabled online activation. 
+You don't need any keys and activation in order to use this app
+
+*/
+
+
 const ipc = require('electron').ipcRenderer;
 const remote = require('electron').remote;
 const dialog = require('electron').remote.dialog;
