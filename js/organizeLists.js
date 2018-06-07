@@ -29,7 +29,7 @@ var locationList = getEl('Location_Files');
 
 Sortable.create(blankList);
 
-if (project.type == "book" || project.title == "script") {
+if (project.type == "book" || project.type == "script") {
     Sortable.create(actorList);
     Sortable.create(locationList);
 }
